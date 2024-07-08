@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Merriweather", serif;
+} 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* banner section is stars from here */
+.header-banner{
+    max-width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top:30px;
+    background-image: url(/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+   
+}
+    
+
+.banner-content p, h1{
+    color: white;   
+}
+.banner-content p{
+    font-size: 30px;
+    font-weight: 400;
+}
+.banner-content h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height: 600px; 
+}
+.orenge{
+    color:blue;
+}
+.green{
+    color: yellow;
+}
+/* banner section design end here */
+
+/* discount section design stars here */
+.discount-section{
+    max-width: 802.9px;
+    height: 806px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.discount-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 1rem;
+
+}
+.discount-image{
+    margin-top: 50px;
+    width: 802.9px;
+    height: 500px;
+    background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party); 
+
+}
+.discount-image img{
+    width: 100%;
+    height: 100%;
+}
+.sixtyfive-dis{
+   color: rgb(255, 0, 0);
+   font-family: Inter;
+  font-size: 70px;
+}
+  
+  .dis-paragrapg{
+    color: rgb(255, 0, 0);
+   font-family: Inter;
+   font-size: 15px;
+   font-weight: 500;
+  }
+  .dis-categories{
+color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 38px;
+font-weight: 700;
+  }
+  .dis-categories:hover{
+    cursor: pointer;
+    color: green;
+    font-size: 48px;
+  }
+/* discount section design ends here */
