@@ -289,18 +289,7 @@ margin: 0 auto;
   margin-bottom: 5rem;
 
 }
-.image-of-offer-right-side{
-    /* Group 94 */
-/* position: absolute; */
-/* Vector */
-/* position: absolute; */
-/* width: 12.86px; */
-  /* height: 17.18px;  */
-/* margin-left:2rem; */
-/* right: -25.5%;  */
-/* top: 145.1%; */
-/* bottom: -132.84%; */
-}
+
 .nbf{
     color: rgb(255, 0, 0);
     font-size: 24px;
@@ -321,3 +310,83 @@ margin: 0 auto;
 
 }
 /* offer section ends here */
+/* holiday section stars from here */
+.holiday-section{
+    width: 1320px;
+    height: 900.07px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+
+}
+.holiday-sale{
+    width: 1068px;
+    height: 200px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.holiday-desc{
+   width: 1068px;
+   height: 96px;
+   left: 266px;
+   right: -266px;
+   top: 3765px;
+   bottom: -3601px;
+   text-align: center;
+}
+.holiday-sale h4{
+color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.holiday-sale h2{
+
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holiday{
+    color: red;
+}
+.solid-color-section{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 75%;
+   
+}
+.gift-image{
+    width: 674.82px;
+    height: 577.96px;
+    /* border: 2px solid green; */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+.india{
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 8rem;
+}
+.discount-logo{
+    z-index: 1;
+    position: absolute;
+    left: 600px;
+    top: 20%;
+    
+}
+/* holiday section  ends here */
