@@ -390,3 +390,92 @@ text-align: center;
     
 }
 /* holiday section  ends here */
+/* products section stars here */
+   .product-section{
+    width: 1320px;
+    height: 1163px;
+    /* border:2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+   }
+   .product-text h5{
+    font-size: 24px;
+   font-weight: 500;
+   line-height: 29px;
+   letter-spacing: 0%;
+    color:rgb(255, 0, 0);
+    margin-bottom: 5px;
+    
+   }
+   .product-text h2{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color:rgb(7, 2, 17) ;
+    margin-bottom: 10px;
+   }
+   .product-text p{
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0%;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 50px;
+   }
+   .products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   }
+
+/* products section ends here */
+/* news letter section stars here */
+.news-letter{
+    width: 1320px;
+    height: 616px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.news-text{
+    text-align: center;
+}
+.news-text img{
+   margin-top: 50px;
+}
+.news-text h2{
+    margin-top: 20px;
+    font-size: 30px;
+   font-weight: 900;
+ }
+ .news-text p{
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 32px;
+   color:rgba(7, 2, 17, 0.6) ;
+ }
+ .news-button{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .email-btn{
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+
+   background: rgb(255, 255, 255);
+  background-color: aqua;
+  color: gray;
+ }
+ .subscribe-btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    border-radius: 50px;
+    margin-left: -6rem;
+
+ }
+/* news letter section ends here */
